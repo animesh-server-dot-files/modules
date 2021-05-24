@@ -1,0 +1,23 @@
+#%Module1.0#####################################################################
+##
+## Program modulefile
+##
+proc ModulesHelp { } {
+        global version prefix program
+
+        puts stderr "\t$program version: $version"
+        puts stderr "\t$program Prefix: $prefix"
+}
+
+# for Tcl script use only
+set program		Python	
+set	version		3.9.5
+set	prefix		$env(MODULE_PREFIX)/anaconda3/envs/python_3.9
+
+module-whatis	"$program version: $version"
+
+setenv		MODULESHOME		$prefix
+prepend-path	PATH   			$prefix/bin
+prepend-path	LD_LIBRARY_PATH		$prefix/lib
+prepend-path	LIBPATH			$prefix/lib
+prepend-path	MANPATH			$prefix/share/man
