@@ -4,3 +4,6 @@
 [submodule "mafft"]
 	path = mafft
 	url = git@github.com:animesh-server-dot-files/mafft.git
+[submodule "iqtree"]
+	path = iqtree
+	url = https://github.com/animesh-server-dot-files/iqtree.git
