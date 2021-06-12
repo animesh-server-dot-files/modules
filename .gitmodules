@@ -1,6 +1,3 @@
-[submodule "go"]
-	path = go
-	url = https://github.com/animesh-server-dot-files/go.git
 [submodule "nextstrain"]
 	path = nextstrain
 	url = https://github.com/animesh-server-dot-files/nextstrain.git
