@@ -1,5 +1,5 @@
 [submodule "go"]
-	path = go
+	path = golang
 	url = https://github.com/animesh-server-dot-files/go.git
 [submodule "nextstrain"]
 	path = nextstrain
