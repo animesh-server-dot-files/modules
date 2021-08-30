@@ -7,3 +7,21 @@
 [submodule "golang"]
 	path = golang
 	url = https://github.com/animesh-server-dot-files/golang.git
+[submodule "bwa"]
+	path = bwa
+	url = https://github.com/animesh-server-dot-files/bwa.git
+[submodule "fastqc"]
+	path = fastqc
+	url = https://github.com/animesh-server-dot-files/fastqc.git
+[submodule "seqtk"]
+	path = seqtk
+	url = https://github.com/animesh-server-dot-files/seqtk.git
+[submodule "rclone"]
+	path = rclone
+	url = https://github.com/animesh-server-dot-files/rclone.git
+[submodule "picard"]
+	path = picard
+	url = https://github.com/animesh-server-dot-files/picard.git
+[submodule "samtools"]
+	path = samtools
+	url = https://github.com/animesh-server-dot-files/samtools.git
