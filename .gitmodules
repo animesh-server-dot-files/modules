@@ -25,3 +25,6 @@
 [submodule "samtools"]
 	path = samtools
 	url = https://github.com/animesh-server-dot-files/samtools.git
+[submodule "gatk"]
+	path = gatk
+	url = https://github.com/animesh-server-dot-files/gatk.git
